@@ -1,0 +1,176 @@
+/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc
+@options
+@argfile
+-classpath
+'/home/aliak/.m2/repository/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.jar:/home/aliak/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/aliak/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/aliak/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/aliak/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/aliak/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/aliak/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/aliak/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/aliak/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/aliak/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/aliak/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/aliak/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/aliak/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/aliak/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/aliak/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/aliak/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/aliak/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/aliak/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/aliak/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar:/home/aliak/.m2/repository/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.jar:/home/aliak/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/aliak/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.0/maven-invoker-3.0.0.jar:/home/aliak/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.jar:/home/aliak/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.10.1/maven-artifact-transfer-0.10.1.jar:/home/aliak/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/aliak/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.7/doxia-sink-api-1.7.jar:/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.7/doxia-logging-api-1.7.jar:/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.9.2/doxia-site-renderer-1.9.2.jar:/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-core/1.9.1/doxia-core-1.9.1.jar:/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.9.2/doxia-decoration-model-1.9.2.jar:/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-skin-model/1.9.2/doxia-skin-model-1.9.2.jar:/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.9.1/doxia-module-xhtml-1.9.1.jar:/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/1.9.1/doxia-module-xhtml5-1.9.1.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar:/home/aliak/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/aliak/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/aliak/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar:/home/aliak/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/aliak/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/home/aliak/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar:/home/aliak/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar:/home/aliak/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/aliak/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/aliak/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.4/wagon-provider-api-2.4.jar:/home/aliak/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/aliak/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/aliak/.m2/repository/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar:/home/aliak/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/home/aliak/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/aliak/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M10/qdox-2.0-M10.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-java/1.0.5/plexus-java-1.0.5.jar:/home/aliak/.m2/repository/org/ow2/asm/asm/7.2/asm-7.2.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-archiver/4.2.1/plexus-archiver-4.2.1.jar:/home/aliak/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/aliak/.m2/repository/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/home/aliak/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar:/home/aliak/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar:/home/aliak/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar:/home/aliak/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar:/home/aliak/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar:/home/aliak/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/home/aliak/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/home/aliak/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/home/aliak/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/home/aliak/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/home/aliak/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar:/home/aliak/.m2/repository/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar:/home/aliak/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar:/home/aliak/.m2/repository/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar:/home/aliak/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/aliak/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/aliak/JavaIdea/CityLinux/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/aliak/JavaIdea/CityLinux/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'CityLinux 1.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/aliak/JavaIdea/CityLinux/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'CityLinux 1.0 API'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/MainClass.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/SimplifiedMain.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/FuelSorter.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/Building_Cell.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/AccidentException.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/BoundException.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/DistanceException.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/Cell.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/Car.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/TrafficExceptions.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/Truck.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/FuelException.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/Move.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/ThingsOnGrid.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/Dimensions.java'
+'/home/aliak/JavaIdea/CityLinux/src/main/java/Vehicle.java'
+/home/aliak/.m2/repository/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.jar = 1605849269031
+/home/aliak/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar = 1605848925962
+/home/aliak/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar = 1605848925254
+/home/aliak/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar = 1605848925242
+/home/aliak/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar = 1605848925706
+/home/aliak/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar = 1605848925630
+/home/aliak/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar = 1605848925730
+/home/aliak/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar = 1605848925818
+/home/aliak/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar = 1605848925970
+/home/aliak/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar = 1605848925066
+/home/aliak/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar = 1605848925034
+/home/aliak/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar = 1605848926070
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar = 1605848926074
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar = 1605848926062
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar = 1605848946577
+/home/aliak/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar = 1605848926126
+/home/aliak/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar = 1605848926166
+/home/aliak/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar = 1605848925074
+/home/aliak/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar = 1605848925286
+/home/aliak/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar = 1605848924782
+/home/aliak/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar = 1605848926186
+/home/aliak/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar = 1605848966445
+/home/aliak/.m2/repository/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.jar = 1605849269403
+/home/aliak/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar = 1605849269755
+/home/aliak/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.0/maven-invoker-3.0.0.jar = 1605849269791
+/home/aliak/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.jar = 1605849270171
+/home/aliak/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.10.1/maven-artifact-transfer-0.10.1.jar = 1605849270363
+/home/aliak/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar = 1605849275587
+/home/aliak/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar = 1605849270447
+/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.7/doxia-sink-api-1.7.jar = 1605849270443
+/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.7/doxia-logging-api-1.7.jar = 1605849270459
+/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.9.2/doxia-site-renderer-1.9.2.jar = 1605849270547
+/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-core/1.9.1/doxia-core-1.9.1.jar = 1605849271743
+/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.9.2/doxia-decoration-model-1.9.2.jar = 1605849271299
+/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-skin-model/1.9.2/doxia-skin-model-1.9.2.jar = 1605849271407
+/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.9.1/doxia-module-xhtml-1.9.1.jar = 1605849271483
+/home/aliak/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/1.9.1/doxia-module-xhtml5-1.9.1.jar = 1605849271723
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar = 1605849271919
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar = 1605848966873
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar = 1605849272099
+/home/aliak/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar = 1605849273011
+/home/aliak/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar = 1605849273455
+/home/aliak/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar = 1605848968613
+/home/aliak/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar = 1605848968501
+/home/aliak/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar = 1605848968421
+/home/aliak/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar = 1605848968593
+/home/aliak/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar = 1605848968989
+/home/aliak/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar = 1605848970009
+/home/aliak/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar = 1605849274571
+/home/aliak/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.4/wagon-provider-api-2.4.jar = 1605849273835
+/home/aliak/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar = 1605849274895
+/home/aliak/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar = 1605848926418
+/home/aliak/.m2/repository/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar = 1605849275339
+/home/aliak/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar = 1605849275011
+/home/aliak/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1605849274847
+/home/aliak/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M10/qdox-2.0-M10.jar = 1605849275519
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-java/1.0.5/plexus-java-1.0.5.jar = 1605849275115
+/home/aliak/.m2/repository/org/ow2/asm/asm/7.2/asm-7.2.jar = 1605849275335
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-archiver/4.2.1/plexus-archiver-4.2.1.jar = 1605849275755
+/home/aliak/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar = 1605849276659
+/home/aliak/.m2/repository/org/iq80/snappy/snappy/0.4/snappy-0.4.jar = 1605848926574
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar = 1605849275843
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar = 1605849276163
+/home/aliak/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar = 1605849276147
+/home/aliak/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar = 1605849070445
+/home/aliak/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar = 1605849073573
+/home/aliak/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar = 1605849073237
+/home/aliak/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar = 1605849073341
+/home/aliak/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar = 1605849073813
+/home/aliak/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar = 1605849073745
+/home/aliak/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar = 1605849073777
+/home/aliak/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar = 1605849074157
+/home/aliak/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar = 1605849073817
+/home/aliak/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar = 1605849074425
+/home/aliak/.m2/repository/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar = 1605849074305
+/home/aliak/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar = 1605849074313
+/home/aliak/.m2/repository/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar = 1605861060827
+/home/aliak/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar = 1607320642885
+/home/aliak/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar = 1605849073485
+/home/aliak/JavaIdea/CityLinux/src/main/java/MainClass.java = 1608580516211
+/home/aliak/JavaIdea/CityLinux/src/main/java/SimplifiedMain.java = 1608582860874
+/home/aliak/JavaIdea/CityLinux/src/main/java/FuelSorter.java = 1608526370918
+/home/aliak/JavaIdea/CityLinux/src/main/java/Building_Cell.java = 1605853531524
+/home/aliak/JavaIdea/CityLinux/src/main/java/AccidentException.java = 1605872955917
+/home/aliak/JavaIdea/CityLinux/src/main/java/BoundException.java = 1605872782216
+/home/aliak/JavaIdea/CityLinux/src/main/java/DistanceException.java = 1605872878329
+/home/aliak/JavaIdea/CityLinux/src/main/java/Cell.java = 1605853405865
+/home/aliak/JavaIdea/CityLinux/src/main/java/Car.java = 1608526371050
+/home/aliak/JavaIdea/CityLinux/src/main/java/TrafficExceptions.java = 1605853551714
+/home/aliak/JavaIdea/CityLinux/src/main/java/Truck.java = 1608526370982
+/home/aliak/JavaIdea/CityLinux/src/main/java/FuelException.java = 1605872810612
+/home/aliak/JavaIdea/CityLinux/src/main/java/Move.java = 1605853531964
+/home/aliak/JavaIdea/CityLinux/src/main/java/ThingsOnGrid.java = 1605871542513
+/home/aliak/JavaIdea/CityLinux/src/main/java/Dimensions.java = 1605858648300
+/home/aliak/JavaIdea/CityLinux/src/main/java/Vehicle.java = 1608526370798
+/home/aliak/JavaIdea/CityLinux/src/main/java = 1608582861006
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/type-search-index.js = 1608583253823
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/member-search-index.js = 1608583253827
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/stylesheet.css = 1608583253843
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/Move.html = 1608583253627
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/package-search-index.zip = 1608583253823
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/FuelSorter.html = 1608583253623
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/Truck.html = 1608583253683
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/overview-tree.html = 1608583253811
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/AccidentException.html = 1608583253551
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/MainClass.html = 1608579336058
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/element-list = 1608583253703
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/member-search-index.zip = 1608583253827
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/index.html = 1608583253839
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/package-summary.html = 1608583253715
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/FuelException.html = 1608583253611
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/constant-values.html = 1608583253727
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/Vehicle.html = 1608583253703
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/package-search-index.js = 1608583253823
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/allclasses.html = 1608583253839
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/search.js = 1608583253843
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/allpackages-index.html = 1608583253831
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/Building_Cell.html = 1608583253575
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/package-use.html = 1608583253807
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/help-doc.html = 1608583253843
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/SimplifiedMain.html = 1608583253663
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/type-search-index.zip = 1608583253823
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/allclasses-index.html = 1608583253831
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/package-tree.html = 1608583253723
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/serialized-form.html = 1608583253739
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/Car.html = 1608583253595
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/script.js = 1608583253843
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/TrafficExceptions.html = 1608583253671
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/index-all.html = 1608583253827
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/deprecated-list.html = 1608583253835
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/BoundException.html = 1608583253567
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/DistanceException.html = 1608583253607
+/home/aliak/JavaIdea/CityLinux/target/site/apidocs/Cell.html = 1608583253599
